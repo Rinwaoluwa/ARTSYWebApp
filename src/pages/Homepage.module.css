@@ -1,0 +1,71 @@
+
+/* ART IMAGE SECTION */
+
+.artImages {
+    position: relative;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+    
+    height: 25rem;
+}
+.blurPaint{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+
+    position: relative;
+    z-index: -1;
+}
+
+
+.blurPaint--1{
+    background-color: var(--color-4);
+    filter: blur(2rem);
+
+
+    top: -1.2rem;
+    right: -12rem;
+}
+
+.blurPaint--2{
+    background-color: var(--color-6);
+    filter: blur(1.5rem);
+
+    
+    left: -10rem;
+    bottom: -13rem;
+}
+
+.blurPaint--3{
+    background-color: var(--color-6);
+    filter: blur(1rem);
+
+    right: -25%;
+    bottom: -15rem;
+}
+
+
+.images {
+    position: relative;
+}
+.images > *{
+    /* Work on media query for max-width("320px") */
+    position: absolute;
+}
+
+.images img:nth-child(1) {
+    left: -8rem;
+}
+
+.images img:nth-child(2) {
+    right: -12rem;
+}
+
+.images img:nth-child(3) {
+    top: 1rem;
+    left: -7rem;
+    border: 1px solid var(--color-3);
+}
+

@@ -1,0 +1,22 @@
+.navigations {
+    /* Work on media query for max-width("320px") */
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+
+    margin: .5rem;
+    padding: 1rem 0;
+}
+
+.navigations > * {
+    width: 100%;
+}
+
+.navigations div { width: 11rem;}
+
+.navigations h1 { text-align: center;}
+
+.navigations svg {
+    position: relative;
+    bottom: .4rem;
+}

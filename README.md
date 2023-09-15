@@ -1,0 +1,1 @@
+ARTSY is a design art e-commerce website developed as part of a hackathon, with the goal of creating a platform that connects artists with art lovers and facilitates the purchase of unique artworks online. The project focused on providing a seamless and visually engaging shopping experience for users while supporting artists in showcasing and selling their creations.

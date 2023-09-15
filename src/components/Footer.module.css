@@ -1,0 +1,57 @@
+.footer {
+    margin: 8rem 0 3rem 1rem;
+}
+
+.footer > * {
+    margin-bottom: 2rem;
+}
+
+.footer h1 {
+    font-size: 1.5rem;
+    font-family: var(--fmaont-6);
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.footer h3 {
+    font-size: 1rem;
+    font-family: var(--font-1);
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.footer form input {
+    height: 3rem;
+    width: 90%;
+
+    padding: 1rem .5rem;
+    margin-bottom: 1rem;
+}
+
+.footer form button {
+    background-color: var(--color-7);
+    border: none;
+    padding: 1rem 2rem;
+
+    font-family: var(--font-1);
+    font-weight: lighter;
+    color: var(--color-3);
+}
+
+.footer ul h4 {
+    font-family: var(--font-4);
+    font-weight: lighter;
+}
+
+.footer ul li {
+    font-family: var(--font-1);
+    font-weight: lighter;
+    text-align: left;
+
+    list-style: none;
+
+}
+
+.footer ul li span {
+    margin-right: .4rem;
+}

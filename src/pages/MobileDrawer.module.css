@@ -1,0 +1,29 @@
+.navContainer{
+    margin: 2rem;
+}
+
+.navTitle {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.navTitle div {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+}
+
+.navItems ul{
+    font-family: var(--font-1);
+    font-size: 1.5rem;
+    font-weight: lighter;
+
+    list-style: none;
+    line-height: 3.2rem;
+}
+
+.navContainer:last-child div{
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+}
